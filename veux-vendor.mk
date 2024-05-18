@@ -1348,6 +1348,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/veux/proprietary/vendor/lib64/vendor.silead.hardware.fingerprintext@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.silead.hardware.fingerprintext@1.0.so
 
 PRODUCT_PACKAGES += \
+    MiuiCamera \
     CACertService \
     CneApp \
     IWlanService \
@@ -1380,3 +1381,6 @@ PRODUCT_PACKAGES += \
     libEGL_adreno_libEGL_adreno_symlink64 \
     libGLESv2_adreno_libGLESv2_adreno_symlink64 \
     libq3dtools_adreno_libq3dtools_adreno_symlink64
+
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    MiuiCamera
