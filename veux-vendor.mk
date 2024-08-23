@@ -28,6 +28,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/veux/proprietary/vendor/lib64/soundfx/libswvqe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libswvqe.so \
     vendor/xiaomi/veux/proprietary/vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.dolby.hardware.dms@2.0-impl.so \
     vendor/xiaomi/veux/proprietary/vendor/lib64/vendor.dolby.hardware.dms@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.dolby.hardware.dms@2.0.so \
+    vendor/xiaomi/veux/proprietary/vendor/etc/audio_policy_engine_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_engine_configuration.xml \
+    vendor/xiaomi/veux/proprietary/vendor/etc/audio_policy_engine_default_stream_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_engine_default_stream_volumes.xml \
+    vendor/xiaomi/veux/proprietary/vendor/etc/audio_policy_engine_product_strategies.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_engine_product_strategies.xml \
+    vendor/xiaomi/veux/proprietary/vendor/etc/audio_policy_engine_stream_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_engine_stream_volumes.xml \
     vendor/xiaomi/veux/proprietary/odm/etc/build_S88006AA1.prop:$(TARGET_COPY_OUT_ODM)/etc/build_S88006AA1.prop \
     vendor/xiaomi/veux/proprietary/odm/etc/build_S88007AA1.prop:$(TARGET_COPY_OUT_ODM)/etc/build_S88007AA1.prop \
     vendor/xiaomi/veux/proprietary/odm/etc/build_S88007EA1.prop:$(TARGET_COPY_OUT_ODM)/etc/build_S88007EA1.prop \
